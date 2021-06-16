@@ -66,13 +66,13 @@ The decision tree and random forest models performed least favorably. The Logist
 
 
 ```
-├── README.md                                   <- This README file
-├── data                                        <- obtained from kaggle.com
-│   ├── wiki_movie_plots_deduped.csv            <- contains movie plot data scared from Wikipedia
-├── gitignore                                   <- files to ignore
-├── predict_movie_genre_from_plot.ipynb         <- final notebook
-├── predict_movie_genre_from_plot_summary.pdf   <- presentation
-└── images                                      <- Visualizations used in README and pdf file
+├── README.md                                           <- This README file
+├── data                                                <- obtained from kaggle.com
+│   ├── wiki_movie_plots_deduped.csv                    <- contains movie plot data scared from Wikipedia
+├── gitignore                                           <- files to ignore
+├── predict_movie_genre_from_plot_summary.ipynb         <- final notebook
+├── predict_movie_genre_from_plot_summary.pdf           <- presentation
+└── images                                              <- Visualizations used in README and pdf file
 
 
 
