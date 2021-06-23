@@ -70,7 +70,7 @@ I implemented the model on test data and achieved an acurracy score of 64% which
 
 ![Confusionmatrixoftestpredictionsvsactual](https://github.com/Wonuabimbola/movie_plot_project/blob/main/images/confusionmatrix.png)
 
-### Cosine Similarity of the genres
+### Cosine Similarity of the genres using words in their plot summaries
 
 This showed that the plot words in each genre were highly similar to the others
 
