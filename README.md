@@ -54,7 +54,7 @@ The metric used in this project is the 'accuracy score'
 The first simple model which predicted the most frequent class achieved an accuracy score of 41% which served as the baseline.
 
 ### Grid search on both tfidf and count_vectorizer transformed data:
-
+#### Both Logistic regression performed the best, however logisitic regression performed better on the test set.
 Best model was logistic regression with tfidf transformed summaries with the following parameters:
 * C = 1.0
 * class_weight = 'balanced'
