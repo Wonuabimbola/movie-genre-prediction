@@ -4,7 +4,7 @@
 
 ## Business and Data Understanding
 
-Movies are one of the most popular means of entertainment. There are large volumes of movie data being generated and shared on the internet every second.The genre of a movie can be deciphered from its synopsis much of the time. This project is a multiclass text classification problem which uses movie plot summaries to predict movie genres. NLP preprocessing techniques were implemented on the summaries to improve predictive capability. The dataset is from [Kaggle](https://www.kaggle.com/jrobischon/wikipedia-movie-plots) which contains plot summary descriptions scraped from Wikipedia. In this project, only movies that were assigned one genre were used.
+Movies are one of the most popular means of entertainment. There are large volumes of movie data being generated and shared on the internet every second.The genre of a movie can be deciphered from its synopsis much of the time. This project is a multiclass text classification problem which uses movie plot summaries to predict movie genres. NLP preprocessing techniques were implemented on the summaries to improve predictive capability. The dataset is from [Kaggle](https://www.kaggle.com/jrobischon/wikipedia-movie-plots) which contains about 34.8k plot summary descriptions scraped from Wikipedia. In this project, only movies that were assigned one genre were used.
 
 Columns:
 * Release Year - year of release
@@ -84,15 +84,19 @@ This showed that the plot words in each genre were highly similar to the others
 
 ## Navigation
 
-
 ```
-├── README.md                                           <- This README file
-├── data                                                <- obtained from kaggle.com
+├── data                                                <- folder containing data
 │   ├── wiki_movie_plots_deduped.csv                    <- contains movie plot data scraped from Wikipedia
-├── gitignore                                           <- files to ignore
+├── images                                              <- Visualizations used in README and pdf file
+├── .gitignore                                          <- files to ignore
+├── README.md                                           <- This README file
 ├── predict_movie_genre_from_plot_summary.ipynb         <- final notebook
-├── predict_movie_genre_from_plot_summary.pdf           <- slide decks
-└── images                                              <- Visualizations used in README and pdf file
+└── predict_movie_genre_from_plot_summary.pdf           <- final presentation
+```
+## Contact Information
 
+With questions or feedback on this repository, please reach out via:
+- [GitHub](https://github.com/Wonuabimbola)
+- [LinkedIn](https://www.linkedin.com/in/wonuola-abimbola)
 
 
